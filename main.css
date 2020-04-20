@@ -1,0 +1,56 @@
+.header {
+  width: 100%;
+  display: inline-block;
+  margin: 0 auto;
+  text-align: center;
+}
+.video-contianer {
+  width: 100%;
+  display: inline-block;
+  margin: 0 auto;
+  text-align: center;
+  height: 300px;
+}
+.video-contianer video {
+  width: 50%;
+  height: 100%;
+}
+.buttons {
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.buttons button {
+  padding: 5px;
+}
+.log-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.log-container pre {
+  text-align: left;
+  background-color: #eee;
+  display: none;
+  font-family: 'Inconsolata', 'Courier New', monospace;
+  font-size: 0.9em;
+  padding: 10px 10px 10px 25px;
+  position: relative;
+  top: 10px;
+  white-space: pre;
+}
+.error {
+  color: red;
+}
+
+.warn {
+  color: orange;
+}
+
+.info {
+  color: darkgreen;
+}
